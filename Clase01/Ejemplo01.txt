@@ -1,0 +1,3 @@
+Ejemplo 01
+
+Calcular el MCD y MCM de dos números.
