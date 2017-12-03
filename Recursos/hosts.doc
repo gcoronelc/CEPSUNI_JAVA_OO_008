@@ -1,0 +1,443 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# Éste es un ejemplo de archivo HOSTS usado por Microsoft TCP/IP para Windows.
+#
+# Este archivo contiene las asignaciones de las direcciones IP a los nombres de
+# host. Cada entrada debe permanecer en una línea individual. La dirección IP
+# debe ponerse en la primera columna, seguida del nombre de host correspondiente.
+# La dirección IP y el nombre de host deben separarse con al menos un espacio.
+#
+#
+# También pueden insertarse comentarios (como éste) en líneas individuales
+# o a continuación del nombre de equipo indicándolos con el símbolo "#"
+#
+# Por ejemplo:
+#
+#      102.54.94.97     rhino.acme.com          # servidor origen
+#       38.25.63.10     x.acme.com              # host cliente x
+
+
+#master cs6
+127.0.0.1 192.150.14.69
+127.0.0.1 192.150.18.101
+127.0.0.1 192.150.18.108
+127.0.0.1 192.150.22.40
+127.0.0.1 192.150.8.100
+127.0.0.1 192.150.8.118
+127.0.0.1 209-34-83-73.ood.opsource.net
+127.0.0.1 3dns-1.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-4.adobe.com
+127.0.0.1 3dns.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.wip.adobe.com
+127.0.0.1 activate.wip1.adobe.com
+127.0.0.1 activate.wip2.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip4.adobe.com
+127.0.0.1 adobe-dns-1.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-4.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe.activate.com
+127.0.0.1 adobeereg.com
+127.0.0.1 crl.verisign.net
+127.0.0.1 CRL.VERISIGN.NET.*
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.wip.adobe.com
+127.0.0.1 ereg.wip1.adobe.com
+127.0.0.1 ereg.wip2.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip4.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 ood.opsource.net
+127.0.0.1 practivate.adobe
+127.0.0.1 practivate.adobe.*
+127.0.0.1 practivate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 practivate.adobe.ipp
+127.0.0.1 practivate.adobe.newoa
+127.0.0.1 practivate.adobe.ntp
+127.0.0.1 tss-geotrust-crl.thawte.com
+127.0.0.1 wip.adobe.com
+127.0.0.1 wip1.adobe.com
+127.0.0.1 wip2.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip4.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 wwis-dubc2-vip60.adobe.com
+127.0.0.1 wwis-dubc3-vip60.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+127.0.0.1 na2m-pr.licenses.adobe.com
+
+
+
+
+#bloqueo chat de outlook
+0.0.0.0   geo.messenger.services.live.com 
+127.0.0.1 geo.messenger.services.live.com
+0.0.0.0   geo.messenger.services.live.com
+#end
+#chat de gmail
+127.0.0.1    chatenabled.mail.google.com
+#end
+# MSN Messenger
+127.0.0.1 messenger.hotmail.com
+
+# Google talk
+127.0.0.1 talk.google.com
+127.0.0.1 talkx.l.google.com
+
+# Yahoo Messenger
+127.0.0.1 scs.msg.yahoo.com
+127.0.0.1 scsa.msg.yahoo.com
+127.0.0.1 scsb.msg.yahoo.com
+127.0.0.1 scsc.msg.yahoo.com
+127.0.0.1 scsd.msg.yahoo.com
+127.0.0.1 scse.msg.yahoo.com
+127.0.0.1 scsf.msg.yahoo.com
+127.0.0.1 scsg.msg.yahoo.com
+127.0.0.1 scsh.msg.yahoo.com
+
+
+#BLOQUEAR CORREO
+#account.live.com
+#domains.live.com
+#explore.live.com
+#g.live.com
+#home.live.com
+#live.com
+#login.live.com
+#mail.google.com
+#mail.live.com
+#mail.services.live.com
+#mail.yahoo.com
+#mid.live.com
+#pop3.live.com
+#secure.shared.live.com
+#security.live.com
+#shared.live.com
+#signup.live.com
+#smtp.live.com
+#ssw.live.com
+#status.live.com
+#text.mobile.live.com
+#windowslive.es.msn.com
+#www.gmail.com
+#www.hotmail.com
+#www.live.com
+
+
+
+
+BLOQUEAR CHAT Y MESSENGER
+127.0.0.1 bay.gateway.messenger.live.com
+127.0.0.1 bay.messenger.services.live.com
+127.0.0.1 baymsg1010719.gateway.messenger.live.com
+127.0.0.1 baymsg1010729.by2.gateway.edge.messenger.live.com
+127.0.0.1 baymsg1020131.by2.gateway.edge.messenger.live.com
+127.0.0.1 baymsg1020233.by2.gateway.edge.messenger.live.com
+127.0.0.1 baymsg1020330.by2.gateway.edge.messenger.live.com
+127.0.0.1 baymsg1020419.gateway.messenger.live.com
+127.0.0.1 baymsg1020426.gateway.messenger.live.com
+127.0.0.1 baymsg1020432.by2.gateway.edge.messenger.live.com
+127.0.0.1 baymsg1030128.gateway.messenger.live.com
+127.0.0.1 baymsg1030133.by2.gateway.edge.messenger.live.com
+127.0.0.1 by2msg3010709.gateway.messenger.live.com
+127.0.0.1 by2msg3010815.gateway.messenger.live.com
+127.0.0.1 by2msg3020106.gateway.messenger.live.com
+127.0.0.1 by2msg3020315.gateway.messenger.live.com
+127.0.0.1 by2msg3020405.gateway.messenger.live.com
+127.0.0.1 by2msg4020413.gateway.messenger.live.com
+127.0.0.1 byrdr.omega.contacts.msn.com
+127.0.0.1 config.messenger.msn.com
+127.0.0.1 directory.services.live.com
+127.0.0.1 echo.edge.messenger.live.com
+127.0.0.1 gateway.messenger.hotmail.com
+127.0.0.1 geo.messenger.services.live.com
+127.0.0.1 local-bay.contacts.msn.com
+127.0.0.1 login.skype.com
+127.0.0.1 messenger.hotmail.com 
+127.0.0.1 relay.voice.edge.messenger.live.com
+127.0.0.1 sup.live.com
+127.0.0.1 www.ebuddy.com
+127.0.0.1 www.ebuddyxms.com
+
+#BLOQUEAR OTRAS REDES SOCIALES
+127.0.0.1 api.twitter.com
+127.0.0.1 ar.linkedin.com
+127.0.0.1 cf.addthis.com
+127.0.0.1 del.icio.us
+127.0.0.1 delicious.com
+127.0.0.1 disqus.com
+127.0.0.1 em.sonicocnt.com
+127.0.0.1 es-ar.hi5.com
+127.0.0.1 es-pe.hi5.com
+127.0.0.1 es.hi5.com
+127.0.0.1 foursquare.com
+127.0.0.1 hi5.com
+127.0.0.1 hotmailadictos.disqus.com
+127.0.0.1 livejournal.com
+127.0.0.1 pics.sonicocnt.com
+127.0.0.1 platform.linkedin.com
+127.0.0.1 platform.twitter.com
+127.0.0.1 plus.google.com
+127.0.0.1 posterous.com
+127.0.0.1 profesoradodereligion.ning.com
+127.0.0.1 profile.pics.ak.sonicocnt.com
+127.0.0.1 search.twitter.com
+127.0.0.1 spaces.live.com
+127.0.0.1 st2.sonicocnt.com
+127.0.0.1 static.ning.com
+127.0.0.1 status.twitter.com
+127.0.0.1 support.twitter.com
+127.0.0.1 twitter.com
+127.0.0.1 twitterperu.ning.com
+127.0.0.1 vids.myspace.com
+127.0.0.1 w.sharethis.com
+127.0.0.1 widgets.twimg.com
+127.0.0.1 www.blinklist.com
+127.0.0.1 Www.linkedin.com
+127.0.0.1 www.myspace.com
+127.0.0.1 www.orkut.com
+127.0.0.1 www.sonico.com
+127.0.0.1 www.twitter.com
+
+#BLOQUEAR SOFTWARE Y TECNOLOGIA
+#addons.foxitsoftware.com
+#appworld.blackberry.com
+#exp01.eset.com
+#feeds.feedburner.com
+#ie7-js.googlecode.com
+#market.android.com
+#mx.blackberry.com
+#notifier.avira.com
+#support.microsoft.com
+#um10.eset.com
+#um12.eset.com
+#um14.eset.com
+#um16.eset.com
+#um18.eset.com
+#update.zonelabs.com
+#us.blackberry.com
+#www.addthis.com
+#zonelabs.com
+
+#BLOQUEAR COMPARTICION DE VIDEOS
+#youtube.com
+#de.justin.tv
+#es.justin.tv
+#fliiby.com
+#images.video.msn.com
+#verenvivo.org
+#video.google.com
+#www.justin.tv
+#www.xvideos.com
+#2.gvt0.com
+#cdn1.static.videobash.com
+#player.vimeo.com
+#tu.tv
+#vbox7.com
+#video.google.com.pe
+#videos.lainformacion.com
+#vimeo.com
+#www.animesxd.com
+#www.dailymotion.com
+#www.dalealplay.com
+#www.fulltv.com.ar
+#www.funnyordie.com
+#www.izlesene.com
+#www.keptelenseg.hu
+#www.sonicovideos.com
+#www.todovideosmusicales.es
+#www.vbox7.com
+#www.videojug.com
+#www.videos-musicales-gratis.com
+#www.videoschistosos.net
+#www.wopvideos.com
+
+#BLOQUEAR WINDOWS UPDATED
+127.0.0.1 anycast.perf.glbdns.microsoft.com
+127.0.0.1 c.perf.glbdns.microsoft.com
+127.0.0.1 crl.microsoft.com
+127.0.0.1 dc.tmtest.glbdns.microsoft.com
+127.0.0.1 download.microsoft.com
+127.0.0.1 download.windowsupdate.com
+127.0.0.1 go.microsoft.com
+127.0.0.1 ls2web.redmond.corp.microsoft.com
+127.0.0.1 mscrl.microsoft.com
+127.0.0.1 pe.msn.com
+127.0.0.1 spynet2.microsoft.com
+127.0.0.1 sqm.microsoft.com
+127.0.0.1 support.live.com
+127.0.0.1 teredo.ipv6.microsoft.com
+127.0.0.1 watson.microsoft.com
+127.0.0.1 wer.microsoft.com
+127.0.0.1 windows.microsoft.com
+127.0.0.1 www.download.windowsupdate.com
+127.0.0.1 www.microsoft.com
+127.0.0.1 www.msftncsi.com
+127.0.0.1 www.update.microsoft.com
+
+
+
+
+
+127.0.0.1       localhost
+127.0.0.1   m.facebook.com
+127.0.0.1   af-za.facebook.com 
+127.0.0.1   az-az.facebook.com 
+127.0.0.1   id-id.facebook.com 
+127.0.0.1   ms-my.facebook.com 
+127.0.0.1   bs-ba.facebook.com 
+127.0.0.1   ca-es.facebook.com 
+127.0.0.1   cs-cz.facebook.com 
+127.0.0.1   cy-gb.facebook.com 
+127.0.0.1   da-dk.facebook.com 
+127.0.0.1   de-de.facebook.com 
+127.0.0.1   et-ee.facebook.com 
+127.0.0.1   en-gb.facebook.com 
+127.0.0.1   es-la.facebook.com 
+127.0.0.1   es-es.facebook.com 
+127.0.0.1   eo-eo.facebook.com 
+127.0.0.1   eu-es.facebook.com 
+127.0.0.1   tl-ph.facebook.com 
+127.0.0.1   fo-fo.facebook.com 
+127.0.0.1   fr.facebook.com 
+127.0.0.1   fr-fr.facebook.com 
+127.0.0.1   ga-ie.facebook.com 
+127.0.0.1   gl-es.facebook.com 
+127.0.0.1   ko-kr.facebook.com 
+127.0.0.1   hr-hr.facebook.com 
+127.0.0.1   is-is.facebook.com 
+127.0.0.1   it-it.facebook.com 
+127.0.0.1   ka-ge.facebook.com 
+127.0.0.1   sw-ke.facebook.com 
+127.0.0.1   ku-tr.facebook.com 
+127.0.0.1   lv-lv.facebook.com 
+127.0.0.1   fb-lt.facebook.com 
+127.0.0.1   lt-lt.facebook.com 
+127.0.0.1   la-va.facebook.com 
+127.0.0.1   hu-hu.facebook.com 
+127.0.0.1   nl-nl.facebook.com 
+127.0.0.1   ja-jp.facebook.com 
+127.0.0.1   nb-no.facebook.com 
+127.0.0.1   nn-no.facebook.com 
+127.0.0.1   pl-pl.facebook.com 
+127.0.0.1   pt-br.facebook.com 
+127.0.0.1   pt-pt.facebook.com 
+127.0.0.1   ro-ro.facebook.com 
+127.0.0.1   ru-ru.facebook.com 
+127.0.0.1   sq-al.facebook.com 
+127.0.0.1   sk-sk.facebook.com 
+127.0.0.1   sl-si.facebook.com 
+127.0.0.1   fi-fi.facebook.com 
+127.0.0.1   sv-se.facebook.com 
+127.0.0.1   th-th.facebook.com 
+127.0.0.1   vi-vn.facebook.com 
+127.0.0.1   tr-tr.facebook.com 
+127.0.0.1   zh-cn.facebook.com 
+127.0.0.1   zh-tw.facebook.com 
+127.0.0.1   zh-hk.facebook.com 
+127.0.0.1   el-gr.facebook.com 
+127.0.0.1   be-by.facebook.com 
+127.0.0.1   bg-bg.facebook.com 
+127.0.0.1   mk-mk.facebook.com 
+127.0.0.1   sr-rs.facebook.com 
+127.0.0.1   uk-ua.facebook.com 
+127.0.0.1   hy-am.facebook.com 
+127.0.0.1   he-il.facebook.com 
+127.0.0.1   ar-ar.facebook.com 
+127.0.0.1   ps-af.facebook.com 
+127.0.0.1   fa-ir.facebook.com 
+127.0.0.1   ne-np.facebook.com 
+127.0.0.1   hi-in.facebook.com 
+127.0.0.1   bn-in.facebook.com 
+127.0.0.1   pa-in.facebook.com 
+127.0.0.1   ta-in.facebook.com 
+127.0.0.1   te-in.facebook.com 
+127.0.0.1   ml-in.facebook.com 
+
+# Variantes de acceso:
+
+127.0.0.1   www.facebook.com 
+127.0.0.1   facebook.com 
+127.0.0.1   www.connect.facebook.com 
+127.0.0.1   login.facebook.com 
+127.0.0.1   www.login.facebook.com 
+127.0.0.1   www.login.facebook.com.au 
+127.0.0.1   login.facebook.com.au 
+127.0.0.1   www.fbcdn.net 
+127.0.0.1   www.fbcdn.com 
+127.0.0.1   m.facebook.com 
+127.0.0.1   blog.facebook.com 
+127.0.0.1   apps.facebook.com 
+127.0.0.1   0.facebook.com 
+127.0.0.1   www.0.facebook.com 
+127.0.0.1   www.0.www.facebook.com 
+127.0.0.1   www.0.0.www.facebook.com 
+127.0.0.1   www.www.0.0.www.facebook.comm 
+127.0.0.1   www.www.0.facebook.com 
+127.0.0.1   www.o.facebook.com 
+127.0.0.1   www.ofacebook.com 
+127.0.0.1   www.o.www.facebook.com 
+127.0.0.1   www.o.o.www.facebook.com 
+127.0.0.1   www.www.o.o.www.facebook.com 
+127.0.0.1   www.www.o.facebook.com 
+127.0.0.1   www.0.o.facebook.com 
+127.0.0.1   www.o.0.facebook.com 
+
+# Para bloquear el acceso si repiten www.www:
+
+127.0.0.1 www.www.facebook.com 
+127.0.0.1 www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.facebook.com  
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.facebook.com  
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
+127.0.0.1 www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.www.facebook.com 
