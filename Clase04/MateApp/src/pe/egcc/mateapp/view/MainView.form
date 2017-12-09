@@ -32,6 +32,24 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuMatematicaFactorialActionPerformed"/>
               </Events>
             </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuMatematicaMcdMcm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MCD y MCM"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuMatematicaFibonacci">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fibonacci"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuMatematicaFibonacciActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuMatematicaPrimo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Primo"/>
+              </Properties>
+            </MenuItem>
           </SubComponents>
         </Menu>
       </SubComponents>

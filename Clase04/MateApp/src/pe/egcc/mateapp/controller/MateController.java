@@ -8,4 +8,10 @@ public class MateController {
     return MateService.calcFactorial(num);
   }
   
+  
+  public int[] generaFibonacci( int tamanio ){
+    return MateService.generaFibonacci(tamanio);
+  }
+  
+  
 }

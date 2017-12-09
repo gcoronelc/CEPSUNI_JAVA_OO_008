@@ -6,7 +6,7 @@ public class Prueba01 {
 
   public static void main(String[] args) {
     
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i <= 10; i++) {
       long factorial = MateService.calcFactorial(i);
       System.out.println("Factorial de " + i + " es " + factorial);
     }

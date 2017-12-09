@@ -1,23 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pe.egcc.mateapp.view;
 
 import javax.swing.JInternalFrame;
 
-/**
- *
- * @author Master
- */
 public class MainView extends javax.swing.JFrame {
 
-  /**
-   * Creates new form MainView
-   */
   public MainView() {
     initComponents();
+    this.setExtendedState(MAXIMIZED_BOTH);
   }
 
   /**
@@ -33,6 +22,9 @@ public class MainView extends javax.swing.JFrame {
     menuArchivoSalir = new javax.swing.JMenuItem();
     menuMatematica = new javax.swing.JMenu();
     menuMatematicaFactorial = new javax.swing.JMenuItem();
+    menuMatematicaMcdMcm = new javax.swing.JMenuItem();
+    menuMatematicaFibonacci = new javax.swing.JMenuItem();
+    menuMatematicaPrimo = new javax.swing.JMenuItem();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     setTitle("MATEMATICAS PARA TODOS");
@@ -59,6 +51,20 @@ public class MainView extends javax.swing.JFrame {
     });
     menuMatematica.add(menuMatematicaFactorial);
 
+    menuMatematicaMcdMcm.setText("MCD y MCM");
+    menuMatematica.add(menuMatematicaMcdMcm);
+
+    menuMatematicaFibonacci.setText("Fibonacci");
+    menuMatematicaFibonacci.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        menuMatematicaFibonacciActionPerformed(evt);
+      }
+    });
+    menuMatematica.add(menuMatematicaFibonacci);
+
+    menuMatematicaPrimo.setText("Primo");
+    menuMatematica.add(menuMatematicaPrimo);
+
     menuBar.add(menuMatematica);
 
     setJMenuBar(menuBar);
@@ -82,10 +88,12 @@ public class MainView extends javax.swing.JFrame {
   }//GEN-LAST:event_menuArchivoSalirActionPerformed
 
   private void menuMatematicaFactorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuMatematicaFactorialActionPerformed
-    JInternalFrame view = new FactorialView();
-    desktopPane.add(view);
-    view.setVisible(true);
+    cargarFormulario(FactorialView.class);
   }//GEN-LAST:event_menuMatematicaFactorialActionPerformed
+
+  private void menuMatematicaFibonacciActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuMatematicaFibonacciActionPerformed
+    cargarFormulario(FibonacciView.class);
+  }//GEN-LAST:event_menuMatematicaFibonacciActionPerformed
 
   /**
    * @param args the command line arguments
@@ -129,6 +137,39 @@ public class MainView extends javax.swing.JFrame {
   private javax.swing.JMenuBar menuBar;
   private javax.swing.JMenu menuMatematica;
   private javax.swing.JMenuItem menuMatematicaFactorial;
+  private javax.swing.JMenuItem menuMatematicaFibonacci;
+  private javax.swing.JMenuItem menuMatematicaMcdMcm;
+  private javax.swing.JMenuItem menuMatematicaPrimo;
   // End of variables declaration//GEN-END:variables
 
+  private void cargarFormulario(Class<?> aClass) {
+
+    // Variable de control
+    JInternalFrame view = null;
+
+    try {
+
+      // Buscar instancia
+      for (JInternalFrame form : desktopPane.getAllFrames()) {
+        if (aClass.isInstance(form)) {
+          view = form;
+          break;
+        }
+      }
+
+      // Crear instancia
+      if (view == null) {
+        view = (JInternalFrame) Class.forName(aClass.getName()).newInstance();
+        desktopPane.add(view);
+        view.setVisible(true);
+      }
+
+      // Activar el formulario
+      view.setSelected(true);
+
+    } catch (Exception e) {
+
+    }
+
+  }
 }
