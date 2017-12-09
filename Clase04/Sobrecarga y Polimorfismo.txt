@@ -1,0 +1,22 @@
+SOBRECARGA
+==================================================
+Métodos con el mismo nombre, en la misma clase.
+
+Se implementa creando varios métodos con el mismo 
+nombre, diferenciandose en los parámetros.
+
+
+POLIMORFISMO
+==================================================
+Métodos con la misma firma en diferentes clases.
+
+Como se implementa:
+
+  - Herencia
+  - Implementación de interfaces
+  
+  
+
+
+
+
