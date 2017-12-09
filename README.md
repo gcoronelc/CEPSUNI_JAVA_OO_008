@@ -14,12 +14,14 @@
 - Página: https://github.com/gcoronelc/CEPSUNI_JAVA_OO_008
 - Contenido: http://gcoronelc.blogspot.pe/p/java.html
 - Código fuente: https://goo.gl/GRaOQg
+- Contacto: https://goo.gl/41ftyM
 
 
 ## DOCENTE
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: http://gcoronelc.blogspot.pe
+- Contacto: https://goo.gl/41ftyM
 
 
 ## PROGRAMANDO PENSANDO EN SERVICIOS
